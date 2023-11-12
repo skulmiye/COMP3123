@@ -1,0 +1,41 @@
+.data-entry-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Bookman Old Style", Georgia, serif;
+    
+}
+
+.data-entry-form {
+    display: grid;
+    gap: 10px;
+}
+
+.submitted-data {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-family: "Bookman Old Style", Georgia, serif;
+}
+
+strong, h1 {
+    color: #04AA6D;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+  }
